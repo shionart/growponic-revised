@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "82774556547",
+    "firebase_url": "https://testappgrowponic.firebaseio.com",
+    "project_id": "testappgrowponic",
+    "storage_bucket": "testappgrowponic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82774556547:android:e0e66d357d6e543f9840b6",
+        "android_client_info": {
+          "package_name": "com.project.testappgrowponic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82774556547-1u21qbmp6o9jqksj1jkqu8078sujt9uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.testappgrowponic",
+            "certificate_hash": "80de1817af04cc217cdd02f7371da8dd48f9f57e"
+          }
+        },
+        {
+          "client_id": "82774556547-9tgebc67skdhjijj0v8pi1ebdjvam38i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhvKrAo2oDiQCYaRgrobR3xNt0WzCci_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82774556547-9tgebc67skdhjijj0v8pi1ebdjvam38i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

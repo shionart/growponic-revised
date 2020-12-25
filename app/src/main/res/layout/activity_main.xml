@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+
+        <ImageButton
+            android:id="@+id/button_account"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_button_white"
+            android:backgroundTint="@color/colorAccent"
+            android:contentDescription="@string/ic_account"
+            android:elevation="6dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_settings_black_24dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button_white"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:clickable="false"
+            android:elevation="6dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/app_second_name"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button_account"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/button_belajar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/icon_belajar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="@string/ic_belajar"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/button_materi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/icon_cara" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="@string/ic_materi"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/button_jadwal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/icon_jadwal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="@string/ic_jadwal"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/button_konsul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/icon_konsul" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="center_horizontal"
+                        android:text="@string/ic_konsultasi"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+        <!--        <ScrollView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent">-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="vertical">-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/button_konsul"-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="100dp"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:background="@drawable/rounded_button_white"-->
+        <!--                    android:fontFamily="@font/montserrat"-->
+        <!--                    android:text="@string/ic_konsultasi"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@color/colorPrimary"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/button_belajar"-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="100dp"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:background="@drawable/rounded_button_white"-->
+        <!--                    android:fontFamily="@font/montserrat"-->
+        <!--                    android:text="@string/ic_belajar"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@color/colorPrimary"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/button_materi"-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="100dp"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:background="@drawable/rounded_button_white"-->
+        <!--                    android:fontFamily="@font/montserrat"-->
+        <!--                    android:text="@string/ic_materi"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@color/colorPrimary"-->
+        <!--                    android:textSize="20sp" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/button_jadwal"-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="100dp"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:background="@drawable/rounded_button_white"-->
+        <!--                    android:fontFamily="@font/montserrat"-->
+        <!--                    android:text="@string/ic_jadwal"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@color/colorPrimary"-->
+        <!--                    android:textSize="20sp" />-->
+        <!--            </LinearLayout>-->
+        <!--        </ScrollView>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

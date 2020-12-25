@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:background="@color/fui_buttonShadow">
+
+
+    <TextView
+        android:id="@+id/textView_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal"
+        android:fontFamily="@font/opensans_semibold"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mulai tanam"
+        android:fontFamily="@font/opensans_reguler"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textView_deskripsi_ext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mulai tanam"
+        android:fontFamily="@font/opensans_reguler"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:visibility="gone"/>
+</LinearLayout>

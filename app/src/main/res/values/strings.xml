@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">Growponic</string>
+    <string name="sign_in">Sign In</string>
+    <string name="ic_growponic">Growponic Icon</string>
+    <string name="beranda">Beranda</string>
+    <string name="text_signIn">Memulai Aplikasi</string>
+    <string name="ic_belajar">Belajar\nHidroponik</string>
+    <string name="ic_materi">Cara\nMenanam</string>
+    <string name="ic_jadwal">Jadwal\nPemberian\nNutrisi</string>
+    <string name="ic_konsultasi">Ruang\nDiskusi</string>
+    <string name="ic_account">Account</string>
+    <string name="app_second_name">GROWPONIC</string>
+    <string name="hint_name">My Name</string>
+    <string name="save">Simpan</string>
+    <string name="sign_out">Keluar</string>
+    <string name="belajar">Belajar hidroponik</string>
+    <string name="cara">Cara menanam \n Hidroponik</string>
+    <string name="jadwal">Jadwal Perawatan</string>
+    <string name="konsultasi">Konsultasi</string>
+    <string name="signin_google">Masuk dengan Google</string>
+    <string name="pengertian">Pengertian Hidroponik</string>
+    <string name="pengertian_detail">Tentang Hidroponik</string>
+    <string name="manfaat">Manfaat Hidroponik</string>
+    <string name="manfaat_detail">Apasih Manfaat Hidroponik?</string>
+    <string name="Sejarah">Sejarah Hidroponik</string>
+    <string name="Sejarah_detail">Sejarah Hidroponik?</string>
+    <string name="teknik1">Teknik Wick System</string>
+    <string name="teknik2">Teknik Deep Water Culture</string>
+
+
+    <string name="lorem">\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.\n\n
+    \t\tLorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.\n\n
+    \t\tLorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.\n\n
+    \t\tLorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.\n\n
+    \t\tLorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.\n\n
+    \t\tLorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.\n\n</string>
+
+
+
+    <string name="kompetensi_inti">KI 1:  Menghayati dan mengamalkan ajaran agama yang dianutnya\n\nKI 2: Menghayati dan mengamalkan perilaku jujur, disiplin, santun, peduli (gotong royong, kerjasama, toleran, damai), bertanggung jawab, responsif, dan pro-aktif dalam berinteraksi secara efektif sesuai dengan perkembangan anak di lingkungan, keluarga, sekolah, masyarakat dan lingkungan alam sekitar, bangsa, negara, kawasan regional, dan kawasan internasional\n\nKI 3: Memahami, menerapkan, dan menganalisis pengetahuan faktual, konseptual, prosedural, dan metakognitif berdasarkan rasa ingin tahunya tentang ilmu pengetahuan, teknologi, seni, budaya, dan humaniora dengan wawasan kemanusiaan, kebangsaan, kenegaraan, dan peradaban terkait penyebab fenomena dan kejadian, serta menerapkan pengetahuan prosedural pada bidang kajian yang spesifik sesuai dengan bakat dan minatnya untuk memecahkan masalah\n\nKI 4: Mengolah, menalar, dan menyaji dalam ranah konkret dan ranah abstrak terkait dengan pengembangan dari yang dipelajarinya di sekolah secara mandiri, bertindak secara efektif dan kreatif, serta mampu menggunakan metode sesuai kaidah keilmuan
+</string>
+
+    <string name="kompetensi_dasar">1.1 Mengagumi keteraturan dan kompleksitas ciptaan Tuhan tentang struktur dan fungsi DNA, gen dan kromosom dalam pembentukan dan pewarisan sifat serta pengaturan proses pada mahluk hidup\n\n2.1 Berperilaku ilmiah: teliti, tekun, jujur terhadap data dan fakta, disiplin, tanggung jawab, dan peduli dalam observasi dan eksperimen, berani dan santun dalam mengajukan pertanyaan dan berargumentasi, peduli lingkungan,  gotong royong, bekerjasama, cinta damai, berpendapat secara ilmiah dan kritis, responsif dan proaktif dalam dalam setiap tindakan dan dalam melakukan pengamatan dan percobaan di dalam kelas/laboratorium maupun di luar kelas/laboratorium\n\n3.1 Menganalisis hubungan antara faktor internal dan eksternal dengan proses pertumbuhan dan perkembangan pada mahluk hidup berdasarkan hasil percobaan\n\n4.1 Merencanakan dan melaksanakan percobaan tentang faktor luar yang memengaruhi proses pertumbuhan dan perkembangan  tanaman, dan melaporkan secara tertulis dengan menggunakan tatacara penulisan ilmiah yang benar</string>
+
+    <string name="indikator">1.1.1 Mengagumi tumbuhan sebagai salah satu ciptaan Tuhan\n\n2.1.1 Menunjukkan sikap tekun, jujur, disiplin, kreatif, inovatif, dan bertanggung jawab\n\n2.1.2 Menunjukkan komitmen untuk menjaga  lingkungan sekitar\n\n3.1.1 Menjelaskan konsep dasar pertumbuhan dan perkembangan pada makhluk hidup\n\n3.1.2 Menguraikan proses pertumbuhan dan perkembangan  tumbuhan beserta faktor yang memengaruhinya\n\n3.1.3	Menentukan faktor eksternal yang memengaruhi pertumbuhan dan perkembangan tumbuhan berdasarkan hasil percobaan penanaman tanaman dengan teknik hidroponik\n\n4.1.1	Mengikuti prosedur percobaan penanaman tanaman dengan teknik hidroponik\n\n4.1.2 Melakukan kegiatan pengamatan tentang pengaruh faktor eksternal terhadap proses pertumbuhan dan perkembangan tanaman dengan teknik hidroponik\n\n4.1.3 Menyusun laporan hasil pengamatan pertumbuhan dan  perkembangan tanaman dengan teknik hidroponik</string>
+
+    <string name="pengertian_hidroponic">Hidroponik adalah teknik penanaman tanaman tanpa tanah, tanaman ditumbuhkan dalam media selain tanah seperti air, kerikil, arang sekam, bata merah, dan lain sebagainya (Tallei <i>et al</i>., 2017).
+    </string>
+
+    <string name="kelebihan_hidroponic">•	Hemat lahan\n•	Hemat air\n•	Bebas pestisida\n•	Tumbuh lebih cepat\n•	Tidak bergantung musim\n•	Nilai jual tinggi\n</string>
+
+    <string name="teknik_penananman">
+        Perbedaan antar teknik penanaman hidroponik terletak pada cara penghantaran air, nutrisi, dan oksigen pada akar tanaman. Berikut ini adalah teknik penanaman hidroponik: (Tallei <i>et al</i>., 2017)
+    </string>
+
+    <string name="drip_system">
+        Pemompaan nutrisi dilakukan oleh pompa yang disiapkan dalam wadah, nutrisi akan dipompa sesuai jadwal yang sudah diatur.
+    </string>
+
+    <string name="nft_system">
+        Pemenuhan nutrisi dalam sistem ini dilakukan melalui aliran air tipis dengan ketinggian lapisan air 1-2 cm.
+    </string>
+
+    <string name="ebb_system">
+        Pemenuhan nutrisi tanaman dilakukan dengan cara menggenangi wilayah akar dengan nutrisi pada waktu yang sudah ditentukan.
+    </string>
+
+    <string name="deep_system">
+        Pemenuhan nutrisi dilakukan dengan cara merendam akar dalam larutan nutrisi. Wadah tanaman dibuat dalam sebuah reservoir, tanaman diapungkan dengan bahan pengapung.
+    </string>
+
+    <string name="wick_system">
+        Pada sistem ini, nutrisi yang berada dalam suatu wadah diserap oleh tanaman melalui suatu sumbu. Sumbu dapat berupa kain flanel atau bahan lain yang mudah menyerap air dan tidak mudah rusak.
+    </string>
+
+    <string name="aero_system">
+        Pemenuhan nutrisi dilakukan dengan cara penyemprotan berkala pada akar. Pompa bertekanan tinggi digunakan untuk menyemprot tanaman untuk mentransmisikan nutrien.
+    </string>
+    <string name="teknik_lain">
+        a. Instalasi teknik <i>deep water culture</i> dan <i>wick system</i> dapat dirancang dengan perlengkapan sederhana dari sampah plastik\n\n
+        b. Sampah plastik yang digunakan berupa gelas mineral, botol mineral, dan boks anggur bekas\n\n
+        c. Pemanfaatan sampah plastik ini merupakan bagian dari upaya pengelolaan sampah anorganik dengan metode <i>reuse</i> (penggunaan kembali)(Fitmawati <i>et al</i>., 2019).\n
+    </string>
+
+    <string name="teknik_lain_1">Pemanfaatan sampah plastik ini memberikan keuntungan terutama dari segi biaya. Berikut adalah perbandingan biaya yang dikeluarkan antara <i>wick system</i> dan <i>deep water culture</i> menggunakan instalasi biasa dan barang bekas:</string>
+
+    <string name="teknik_lain_cont">
+        Teknik wick system dapat didesain dengan dua jenis kit berbeda, yaitu:\n\n
+        • Penggunaan botol mineral bekas sebagai kit. Botol mineral hanya dapat digunakan untuk satu buah tanaman\n\n
+        • Penggunaan box anggur bekas sebagai kit yang dapat digunakan untuk 6-9 buah tanaman, tergantung banyaknya netpot yang digunakan.\n
+    </string>
+    <string name="teknik_lain_cont2">
+        Pemanfaatan sampah plastik ini merupakan bagian dari upaya pengelolaan sampah anorganik dengan metode reuse (penggunaan kembali).\n\n
+       Penggunaan sampah plastik sebagai kit hidroponik juga menjadi salah satu langkah awal untuk berkontribusi dalam mengurangi permasalahan lingkungan.\n
+    </string>
+    <string name="referensi_tentang">
+        Fitmawati, M. N. Isda, Isnaini, N. Sofiyanti, &amp; R. M. Roza. (2019). Inovasi Teknologi Hidroponik Melalui Pemanfaatan Barang Bekas dan Nutrisi Buatan Sendiri Sebagai Usaha Peningkatan Pendapatan Petani di Desa Kualu Kecamatan Tambang Kabupaten Kampar. <i>Seminar Nasional Pemberdayaan Masyarakat</i>, 1(1), 499–505.\n\n
+        Tallei, T. E., I. F. M. Rumengan, &amp; A. A. Adam. (2017). <i>Hidroponik Untuk Pemula</i>. Sulawesi Utara: Universitas Sam Ratulangi \n
+    </string>
+
+    <string name="pertanyaan_pertumbuhan">Amati gambar di bawah ini \nPerubahan apa yang terjadi pada biji tumbuhan tersebut?</string>
+    <string name="pengertian_pertumbuhan_perkembangan">• Pertumbuhan adalah proses pertambahan volume, massa, dan jumlah sel, yang sifatnya kuantitatif dan <i>irreversible</i>.\n\n
+        • Perkembangan adalah proses menuju kedewasaan yang sifatnya kualitatif (Campbell <i>et al</i>., 2016).</string>
+
+    <string name="perkecambahan_box">Biji tanaman berkembang menjadi tanaman muda, yang dalam prosesnya terjadi pertumbuhan pada bagian tubuhnya, seperti akar, batang, dan daun</string>
+
+    <string name="proses_bag_1">
+        Secara umum proses pertumbuhan dan perkembangan tumbuhan terdiri dari tiga tahap, yaitu:\n
+        1. Perkecambahan\n
+        2. Pertumbuhan primer\n
+        3. Pertumbuhan sekunder\n</string>
+
+    <string name="perkecambahan_1">1. Perkecambahan</string>
+    <string name="pertanyaan_perkecambahan">Bagaimana proses perkecambahan berlangsung?</string>
+
+    <string name="perkecambahan_box_2">Proses perkecambahan: <b>imbibisi</b> >> <b>pemecahan dormansi</b> biji >> <b>aktivasi enzim</b> dan respirasi >> <b>mobilisasi cadangan makanan</b> untuk perkembangan embrio >> <b>munculnya bagian tubuh tumbuhan muda</b> (Bareke, 2018)</string>
+
+    <string name="proses_bag_1_cont">
+        Pertumbuhan dan perkembangan tumbuhan dimulai dari biji yang mengalami perkecambahan. Proses perkecambahan diawali dari imbibisi hingga mobilisasi cadangan makanan untuk perkembangan embrio (Campbell et al., 2011).</string>
+
+    <string name="tipe_perkecambahan">Tipe Perkecambahan</string>
+
+    <string name="proses_bag_1_rev">
+        • Perkecambahan epigeal terjadi saat hipokotil tumbuh memanjang menembus permukaan tanah sehingga kotiledon ikut terangkat ke permukaan tanah. Contohnya pada kacang merah.\n\n
+        • Perkecambahan hipogeal terjadi apabila epikotil tumbuh memanjang menembus permukaan tanah sehingga kotiledon tetap berada di dalam tanah. Contohnya pada jagung (Handayani dan Riswati, 2009).\n</string>
+
+    <string name="pertumbuhan_primer">2. Pertumbuhan Primer dan Pertumbuhan Sekunder</string>
+
+    <string name="pertanyaan_primersekunder">Apa perbedaan pertumbuhan primer dan pertumbuhan sekunder?</string>
+
+    <string name="proses_bag_2_rev_prev">
+        a. Pertumbuhan primer terjadi karena aktivitas meristem apikal, yang aktivitasnya menyebabkan tumbuhan tumbuh memanjang. \n\n
+        b. Pertumbuhan sekunder terjadi karena aktivitas meristem lateral, yang aktivitasnya menyebabkan peningkatan diameter akar dan batang. \n\n
+        c. Tanaman herba hampir seluruh tubuhnya mengalami pertumbuhan primer.(Campbell et al., 2011)\n</string>
+
+     <string name= "proses_bag_2_rev_prev_1">
+        • Meristem apikal terletak pada ujung akar dan pucuk tumbuhan, aktivitasnya menyebabkan terjadinya pertumbuhan primer.</string>
+
+    <string name="proses_bag_3_rev_prev">
+        Pertumbuhan primer menyebabkan tumbuhan tumbuh memanjang. Pada tanaman herba, hampir seluruh tubuhnya mengalami pertumbuhan primer, sedangkan pada tanaman kayu hanya bagian tanaman yang muda yang mengalami pertumbuhan primer (Campbell <i>et al</i>., 2016).</string>
+
+    <string name="pertumbuhan_sekunder">3. Pertumbuhan Sekunder</string>
+
+    <string name="proses_bag_3">
+        • Pertumbuhan yang disebabkan karena aktivitas meristem lateral disebut pertumbuhan sekunder, terjadi pada batang dan akar tanaman kayu.\n\n
+        • Pertumbuhan ini mengakibatkan peningkatan diameter batang dan akar tanaman sehingga keduanya mengalami penebalan (Harahap, 2012).\n\n</string>
+
+    <string name="proses_bag_3_rev">
+        • Pertumbuhan sekunder tidak lepas dari aktivitas kambium vaskular dan kambium gabus.\n\n
+        • Aktivitas kambium vaskular menyebabkan terbentuknya xilem sekunder dan floem sekunder.\n\n
+        • Kambium gabus memiliki sel-sel yang berfungsi sebagai jaringan pelindung baru, pengganti jaringan epidermis (Campbell et al., 2011).</string>
+
+    <string name="faktor_pertumbuhan_perkembangan">Faktor Pertumbuhan dan Perkembangan Tumbuhan</string>
+
+    <string name="pertanyaan_faktor">Apa yang memengaruhi kondisi kedua tumbuhan tersebut?</string>
+
+    <string name="faktor_perkembangan_rev">Pertumbuhan dan perkembangan tumbuhan dipengaruhi oleh faktor internal dan eksternal. Kedua faktor saling menunjang satu sama lain.</string>
+
+    <string name="faktor_internal_rev">1. Faktor Internal</string>
+
+    <string name="faktor_internal_1">
+        a. Faktor internal adalah faktor yang berasal dari dalam tubuh tumbuhan, terdiri atas gen dan fitohormon.\n\n
+        b. Aktivitas gen dan biosintesis fitohormon dipengaruhi oleh faktor lingkungan (Harahap, 2012).</string>
+
+    <string name="faktor_eksternal_rev">2. Faktor Eksternal</string>
+
+    <string name="faktor_eksternal_1">
+        a. Faktor yang berasal dari luar tumbuhan yang memengaruhi pertumbuhan dan perkembangan tumbuhan\n\n
+        b. Faktor eksternal berkaitan dengan syarat tumbuh sebuah tanaman\n\n
+        c. Masing-masing tanaman memiliki kebutuhan akan faktor lingkungan yang berbeda-beda (Harahap, 2012)</string>
+
+    <string name="tips_pnp">Tips Menanam Tanaman</string>
+
+    <string name="ayo_menanam">Setelah mempelajari teori tentang pertumbuhan dan perkembangan tumbuhan, bagaimana jika anda mulai mengaplikasikannya dengan menanam?</string>
+
+    <string name="tips">Simak tips menanam tanaman berikut ini.</string>
+
+    <string name="tips_1">Tips Menanam Tanaman</string>
+
+    <string name="tips_pnp_1">Bagi para pemula, mulailah dari tanaman yang sederhana. Pastikan tanaman mendapat perhatian penuh.\n\n
+        Manfaatkan barang bekas dan sampah rumah tangga untuk bertanam. Upaya ini dapat mengurangi volume sampah di lingkungan.Selamat Menanam!\n</string>
+
+    <string name="tips_2">Selain dapat melestarikan lingkungan, menanam tanaman memiliki manfaat untuk kesehatan, salah satunya yaitu dapat membantu mengurangi stres.\n\n
+                          Selamat Menanam!</string>
+    <string name="tips_3">Setiap tanaman memiliki syarat tumbuh yang berbeda, pastikan untuk mencari tahu informasi seputar tanaman yang ingin ditanam.</string>
+
+<string name="referensi_tumbuhkembang">
+        Referensi:\n\n
+  Campbell, N. A. dan J. B. Reece. (2011). Biologi Jilid 2 (11th ed.). Jakarta: Erlangga\n\n
+  Harahap, F. (2012). Fisiologi Tumbuhan : Suatu Pengantar. Medan: Unimed Press\n\n
+  Mugisa, I.O., A., Molly, M., Muyinda, R., Gafabusa, G., Kituuka, B., Kyampeire, J., Atim, M., Nampeera, R., Nafula, G., Sseruwu, R., Kabanyoro, dan B.O., Akello. (2016). A Farmers’ Guide To Home Gardening: How To Establish And Manage Home Gardens. NARO- Mukono Zonal Agricultural Research and Development Institute, Uganda.\n\n
+    </string>
+
+ <string name="referensi_pertumbuhan">
+     Bareke, Tura. (2018). Biology of Seed Development and Germination Physiology. <i>Advances in Plants and Agriculture Research</i>, 8 (4), 336-346.\n\n
+
+     Campbell, N. A., L. A. Urry, M. L. Cain, S. A. Wasserman, P. V. Minorsky, &amp; J. B. Reece. (2016). <i>Biology (11th ed.)</i>. New York: Pearson.\n\n
+
+     Khairuna. (2019).<i>Diktat Fisiologi Tumbuhan</i>. Medan: Universitas Islam Negeri Sumatera Utara.\n\n
+
+     Mugisa, I.O., A. Molly, M. Muyinda, R. Gafabusa, G. Kituuka, B. Kyampeire, J. Atim, M. Nampeera, R. Nafula, G. Sseruwu, R. Kabanyoro, &amp; B.O. Akello. (2016). <i>A Farmers’ Guide To Home Gardening: How To Establish and Manage Home Gardens</i>. Uganda: NARO- Mukono Zonal Agricultural Research and Development Institute.
+
+ </string>
+
+    <string name="faktor_eksternal">1. Zat hara meliputi unsur makronutrien dan mikronutrien, sebagai nutrisi bagi pertumbuhan dan perkembangan tumbuhan\n
+                                    2. Cahaya, membantu proses fotosintesis\n
+                                    3. Air, membantu perkecambahan biji\n
+                                    4. Oksigen, berperan dalam proses respirasi\n
+                                    5. Suhu, berperan mengatur aktivitas enzim tumbuhan\n
+                                    6. Kelembaban, berperan mengatur proses perkecambahan</string>
+
+    <string name="faktor_internal">1. Gen, mengatur keadaan fisik dan non fisik tumbuhan, misalnya warna bunga atau rasa buah.\n
+                                    2. Fitohormon, sebagai zat yang mengendalikan fungsi tubuh pada tumbuhan. Contoh fitohormon antara lain auksin, giberelin, sitokinin, asam abisat, etilen, traumalin, dan kalin.</string>
+
+    <string name="pemasaran_bag_1">Umumnya, sayuran yang dijual di supermarket dikemas menggunakan plastik.</string>
+
+    <string name="pemasaran_bag_1_2">Penggunaan plastik ini tidak ramah lingkungan, plastik yang sudah tidak digunakan akan berakhir menjadi limbah yang sulit terdegradasi. </string>
+
+    <string name="pemasaran_bag_2">Salah satu upaya penanggulangan pencemaran lingkungan hidup dan pemulihan lingkungan hidup adalah dengan penghentian sumber pencemaran dan pembersihan unsur pencemar (UU Nomor 32 Tahun 2009).\n\n
+                                 </string>
+
+    <string name="pemasaran_bag_3">Penggunaan kertas ramah lingkungan sebagai bahan kemasan sayur dapat menjadi salah satu upaya untuk meminimalisir volume sampah plastik.\n</string>
+
+    <string name="pemasaran_bag_4">Sampah plastik dapat dimanfaatkan sebagai bahan instalasi hidroponik.\n\n
+        Upaya ini sangat menguntungkan dari segi biaya karena instalasi sampah plastik tidak membutuhkan biaya yang besar.\n</string>
+
+    <string name="pemasaran_strategi">Bercocok tanam hidroponik memberikan banyak keuntungan.  Nilai jual yang tinggi membuat sayuran hidroponik menjadi  ladang usaha yang menjanjikan.\n\nSimak beberapa strategi pemasaran sayuran hidroponik berikut ini.
+    </string>
+
+    <string name="pemasaran_lingkungan">Pemasaran sayuran hidroponik dapat dilakukan dengan berbagai cara, antara lain yaitu:</string>
+
+    <string name="pemasaran_cara">
+        a. Lingkungan terdekat, seperti keluarga, teman, dan tetangga\n\n
+        b. Media sosial, seperti instagram, website, facebook, atau online shope\n\n
+        c. Pasar tradisional, dengan mempertimbangkan perbandingan harga sayuran konvensional\n\n
+        d. Supermarket, dengan mempertimbangkan kualitas dan bobot sayuran yang dibutuhkan\n\n
+        e. Restoran dan hotel, dengan mempertimbangkan suplai sekian kilo perharinya.\n</string>
+
+    <string name="pemasaran_medsos">Pemasaran produk sayuran melalui publikasi di media sosial cukup efektif untuk menarik pelanggan. Anda dapat membagikan cerita kebun hidroponik anda melalui foto-foto yang diposting. Selain itu, anda juga dapat membagikan informasi menarik seputar hidroponik (hidroponikstore.com).\n</string>
+    <string name="pemasaran_pasar">Penjualan sayuran hidroponik dapat dilakukan di pasar tradisional. Penjualan produk sayuran hidroponik di pasar tradisional harus dilakukan dengan mempertimbangkan harga sayuran konvensional yang cenderung lebih murah daripada sayuran hidroponik serta jumlahnya yang lebih mendominasi.\n</string>
+    <string name="pemasaran_supermarket">Sayuran hidroponik dapat dijual di supermarket dengan terlebih dahulu memenuhi syarat dan kualitas yang sudah ditentukan. Umumnya, bobot sayuran yang diinginkan mencapai 250 gram pertanamannya tanpa batang. Selain itu, kebersihan dan kesegaran sayuran juga diperhatikan.\n</string>
+    <string name="pemasaran_restoran">Sayuran hidroponik juga dapat ditawarkan ke restoran dan hotel. Produk sayuran yang ditawarkan ke restoran dan hotel umumnya memiliki kualitas yang sangat bagus. Restoran biasanya meminta suplai sayuran sekian kilo untuk per harinya (goodplant.co.id).\n</string>
+    <string name="referensi_pemasaran">Undang Undang Nomor 32 Tahun 2009 <i>Tentang Perlindungan dan Pengelolaan Lingkungan Hidup</i>\n</string>
+
+
+    <string name="referensi_1">(Sumber: <i>nationalgeographic.grid.id)</i></string>
+    <string name="referensi_2">(Sumber: <i>ib.bioninja.com.au</i>)</string>
+    <string name="referensi_3">(Sumber: <i>researchgate.net</i>)</string>
+    <string name="referensi_4">(Sumber: Campbell <i>et al</i>., 2016)</string>
+    <string name="referensi_5">(Sumber: <i>courses.lumenlearning.com</i>)</string>
+    <string name="referensi_6">(Sumber: Khairuna, 2019)</string>
+    <string name="referensi_7">(Sumber: Mugisa <i>et al</i>., 2016)</string>
+    <string name="referensi_8">(Sumber: <i>hightechgardening.com</i>)</string>
+    <string name="referensi_9">(Sumber: <i>blog.umy.ac.id</i>)</string>
+    <string name="referensi_10">(Sumber: <i>kalilojipekalongan.blogspot.com</i>)</string>
+    <string name="referensi_11">(Sumber: <i>www.totavo.com</i>)</string>
+    <string name="referensi_12">(Sumber: <i>www.idntimes.com</i>)</string>
+
+    <string name="drip">a. <i>Drip System</i></string>
+    <string name="nft">b. <i>NFT System</i></string>
+    <string name="ebb">c. <i>Ebb and Flow</i></string>
+    <string name="aero">d. Aeroponik</string>
+    <string name="dwc">e. <i>Deep Water Culture</i></string>
+    <string name="wick">f. <i>Wick System</i></string>
+
+
+    <string name="video_tutorial">Video tutorial untuk prosedur kerja praktikum hidroponik disajikan dalam bentuk tautan yang akan mengarahkan anda ke youtube.\n\nBerikut ini adalah tautan untuk masing-masing prosedur kerja: </string>
+    <string name="menyemai">1. Menyemai biji</string>
+    <string name="link_1">"https://youtu.be/DFyxIdl3YG4"</string>
+
+    <string name="wick_botol">2. Merancang instalasi wick system dengan botol bekas</string>
+    <string name="link_2">"https://youtu.be/c81tAefgJV8"</string>
+
+    <string name="wick_box">3. Merancang instalasi wick system dengan boks anggur bekas</string>
+    <string name="link_3">"https://youtu.be/QgITM9kqsN0"</string>
+
+    <string name="deep">4. Merancang instalasi deep water culture</string>
+    <string name="link_4">"https://youtu.be/RcGM5Gu-WIE"</string>
+
+    <string name="nutrisi">5. Membuat dan menggunakan nutrisi</string>
+    <string name="link_5">"https://youtu.be/7iB6NpjbCo4"</string>
+
+
+    <string name="kembali">KEMBALI</string>
+    <string name="selanjutnya">SELANJUTNYA</string>
+    <string name="judul">Judul</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="menu">MENU</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="menyemai_biji">Menyemai Biji</string>
+    <string name="tambah_tanaman">Tambah Tanaman</string>
+    <string name="title_tambah_tanaman">Tambah tanaman baru</string>
+    <string name="jenis_tanaman">Nama tanaman</string>
+    <string name="nama_tanaman">Keterangan</string>
+
+</resources>

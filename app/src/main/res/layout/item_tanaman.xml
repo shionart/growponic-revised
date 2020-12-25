@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:background="@color/fui_buttonShadow">
+
+
+    <TextView
+        android:id="@+id/textView_nama_tanaman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanaman 1"
+        android:fontFamily="@font/montserrat"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView_tanggal_tanam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal tanam"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"/>
+</LinearLayout>

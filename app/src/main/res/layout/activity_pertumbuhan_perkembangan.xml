@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".belajarHidroponic.HidroponicPengertian">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/BelajarTheme"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentScrim="@android:color/white"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@android:color/white"
+                android:contentDescription="Pertumbuhan dan Perkembangan Tumbuhan"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pertumbuhan" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/BelajarTheme" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Satu sub bab 1-->
+            <Button
+                android:layout_width="330dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/lato_bold"
+                android:text="Apa itu pertumbuhan dan perkembangan?"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="14dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="14dp"
+                android:text="@string/pertanyaan_pertumbuhan"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewPdPT_14"
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/drip_system"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/referensi_1"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/opensans_semibold"
+                android:text="@string/perkecambahan_box"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:padding="14dp"
+                android:text="@string/pengertian_pertumbuhan_perkembangan"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--END Satu sub bab 1-->
+
+            <!--Satu sub bab 2-->
+            <Button
+                android:layout_width="330dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/lato_bold"
+                android:text="Proses Pertumbuhan dan Perkembangan Tumbuhan"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="14dp"
+                android:paddingTop="14dp"
+                android:paddingRight="14dp"
+                android:text="@string/proses_bag_1"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <!--            perkecambahan mulai-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:text="@string/perkecambahan_1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="14dp"
+                android:paddingTop="10dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="10dp"
+                android:text="@string/pertanyaan_perkecambahan"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewPdPT_15"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/drip_system"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/referensi_2"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="40dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/opensans_semibold"
+                android:text="@string/perkecambahan_box_2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <!--perkecambahan selesai-->
+            <!--            pertumbuhan primer sekunder mulai-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:text="@string/pertumbuhan_primer"
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewPdPT_16"
+                android:layout_width="380dp"
+                android:layout_height="237dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/drip_system"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/referensi_3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="14dp"
+                android:paddingTop="5dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="10dp"
+                android:text="@string/pertanyaan_primersekunder"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewPdPT_17"
+                android:layout_width="wrap_content"
+                android:layout_height="237dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="dripsystem"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="@string/referensi_4"
+                android:textAlignment="center" />
+
+            <!--            faktor pertumbuhan mulai-->
+            <!--Satu sub bab 3-->
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/lato_bold"
+                android:text="Faktor Pertumbuhan dan Perkembangan Tumbuhan"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewPdPT_18"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:contentDescription="dripsystem"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/referensi_5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="14dp"
+                android:paddingTop="5dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="10dp"
+                android:text="@string/pertanyaan_faktor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageViewPdPT_19"
+                android:layout_width="match_parent"
+                android:layout_height="237dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="dripsystem"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="@string/referensi_6"
+                android:textAlignment="center" />
+
+            <!--            tips menanam  mulai-->
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/lato_bold"
+                android:text="Ayo Menanam!"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="14dp"
+                android:paddingTop="5dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="10dp"
+                android:text="@string/ayo_menanam"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="14dp"
+                android:paddingTop="5dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="10dp"
+                android:text="@string/tips"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:lineSpacingExtra="2sp"
+                android:paddingLeft="14dp"
+                android:paddingTop="5dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="10dp"
+                android:text="@string/tips_1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageViewPdPT_20"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="dripsystem"
+                android:src="@drawable/loading" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/referensi_7"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:padding="14dp"
+                android:text="@string/tips_3"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="2sp"
+                android:padding="14dp"
+                android:text="@string/tips_2"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!--            referensi  mulai-->
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/lato_bold"
+                android:text="Referensi"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/opensans_reguler"
+                android:lineSpacingExtra="4sp"
+                android:padding="14dp"
+                android:text="@string/referensi_pertumbuhan"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <!--END Satu sub bab 3-->
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -84,7 +84,7 @@ class Tutorial1 : AppCompatActivity() {
                 "Prosedur Kerja",
                 "/tutorialfix/menyemai/5.JPG",
                 "\n5. Lubang untuk biji kangkung dibuat sebanyak 5-6 lubang pada setiap kotak \n"+
-                "\n\nLubang untuk biji bayam dibuat sebanyak 2-4 lubang pada setiap kotak",
+                "\nLubang untuk biji bayam dibuat sebanyak 2-4 lubang pada setiap kotak",
                 "",
                 "",
                 "",

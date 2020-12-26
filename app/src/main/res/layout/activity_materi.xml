@@ -124,7 +124,7 @@
                         android:layout_gravity="center"
                         android:fontFamily="@font/opensans_semibold"
                         android:gravity="center"
-                        android:text="Merancang Instalasi \n Deep Water Culture  "
+                        android:text="Merancang Instalasi \n Deep Water Culture   "
                         android:textColor="@android:color/black"
                         android:textSize="17sp" />
 

@@ -101,8 +101,9 @@ class Tutorial4 : AppCompatActivity() {
                 "Prosedur Kerja",
                 "/tutorialfix/nutrisi/5.JPG",
                 "\n4. Larutan nutrisi diukur dengan TDS meter sesuai dengan ppm nutrisi yang dibutuhkan \n"+
-                "\n\nPenambahan kepekatan larutan nutrisi akan menaikkan nilai ppm nutrisi\n"+
-                "\n\nPenambahan air akan menurunkan nilai ppm nutrisi",
+                "\nCatatan:"+
+                "\n-Penambahan kepekatan larutan nutrisi akan menaikkan nilai ppm nutrisi"+
+                "\n-Penambahan air akan menurunkan nilai ppm nutrisi",
                 "",
                 "",
                 "",

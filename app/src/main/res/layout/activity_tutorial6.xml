@@ -57,7 +57,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/video_tutorial"
             android:padding="20dp"
-            android:textSize="16sp"
+            android:textSize="17sp"
             android:fontFamily="@font/opensans_semibold"/>
 
         <TextView
@@ -66,7 +66,7 @@
             android:text="@string/menyemai"
             android:padding="20dp"
             android:fontFamily="@font/opensans_semibold"
-            android:textSize="16sp"/>
+            android:textSize="17sp"/>
 
         <TextView
             android:id="@+id/link_1"
@@ -85,7 +85,7 @@
             android:text="@string/wick_botol"
             android:padding="20dp"
             android:fontFamily="@font/opensans_semibold"
-            android:textSize="16sp" />
+            android:textSize="17sp" />
 
         <TextView
             android:id="@+id/link_2"
@@ -104,7 +104,7 @@
             android:text="@string/wick_box"
             android:padding="20dp"
             android:fontFamily="@font/opensans_semibold"
-            android:textSize="16sp" />
+            android:textSize="17sp" />
 
         <TextView
             android:id="@+id/link_3"
@@ -123,7 +123,7 @@
             android:text="@string/deep"
             android:padding="20dp"
             android:fontFamily="@font/opensans_semibold"
-            android:textSize="16sp" />
+            android:textSize="17sp" />
 
         <TextView
             android:id="@+id/link_4"
@@ -142,18 +142,36 @@
             android:text="@string/nutrisi"
             android:padding="20dp"
             android:fontFamily="@font/opensans_semibold"
-            android:textSize="16sp" />
+            android:textSize="17sp" />
 
         <TextView
             android:id="@+id/link_5"
             android:layout_width="268dp"
             android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
             android:layout_gravity="center_horizontal"
             android:autoLink="all"
             android:text="@string/link_5"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textAlignment="center"
             android:textColorLink="@color/colorPrimary" />
+
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_button"
+            android:text="Opsi subtitles/CC pada bagian pengaturan video diaktifkan untuk menampilkan langkah kerja tutorial"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/opensans_semibold"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"/>
+
+
 
 
     </LinearLayout>

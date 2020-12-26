@@ -14,9 +14,9 @@ class KompetensiDasarActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kompetensi_dasar)
 
-        val tabel_ki = "/materi/kompetensi/Tabel KI.png"
-        val tabel_kd = "/materi/kompetensi/Tabel KD.png"
-        val tabel_ipk = "/materi/kompetensi/Tabel IPK.png"
+        val tabel_ki = "/materi/kompetensi/KI2.png"
+        val tabel_kd = "/materi/kompetensi/KD2.png"
+        val tabel_ipk = "/materi/kompetensi/IPK2.png"
 
 
         //load tabel ki

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".tutorials.Tutorial6Activity"
+            android:theme="@style/TutorialTheme"></activity>
+        <activity
             android:name=".tutorials.Tutorial5"
             android:theme="@style/TutorialTheme"></activity>
         <activity
@@ -36,6 +39,7 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".belajarHidroponic.KompetensiDasarActivity" />
         <activity android:name=".belajarHidroponic.PemasaranActivity" />
         <activity android:name=".belajarHidroponic.PertumbuhanPerkembanganActivity" />
         <activity android:name=".belajarHidroponic.TentangHidroponicActivity" />

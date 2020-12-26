@@ -3,9 +3,7 @@ package com.project.testappgrowponic
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.project.testappgrowponic.belajarHidroponic.Tutorial6Activity
 import com.project.testappgrowponic.tutorials.*
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_materi.*
 
 class MateriActivity : AppCompatActivity() {
@@ -46,7 +44,7 @@ class MateriActivity : AppCompatActivity() {
 
         menuCaraEnam.setOnClickListener {
             val intent = Intent(this, Tutorial6Activity::class.java)
-
+            print("starting activity")
             startActivity(intent)
         }
     }

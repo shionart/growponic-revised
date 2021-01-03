@@ -34,7 +34,7 @@ class Tutorial5 : AppCompatActivity() {
             Slider(
                 "Kegiatan Pengamatan",
                 "Pemberian Nutrisi",
-                "/tambahan tutorial/nutrisi.PNG",
+                "/tambahan tutorial/nutrisirev.png",
                 "1. Besar kadar nutrisi yang diberikan ke tanaman dapat dilihat di jadwal pemberian nutrisi\n" +
                         "\nPeningkatan kadar nutrisi dilakukan dengan mengukur kadar nutrisi awal terlebih dahulu, sehingga diketahui besar kadar nutrisi yang perlu ditambahkan\n",
                 "",
@@ -55,7 +55,7 @@ class Tutorial5 : AppCompatActivity() {
             Slider(
                 "Kegiatan Pengamatan",
                 "Konsultasi Pertumbuhan dan Perkembangan Tanaman",
-                "/tambahan tutorial/bertanya.png",
+                "/tambahan tutorial/konsulrev.png",
                 "3. Siswa dapat berkonsultasi kepada guru terkait hambatan dalam proses penanaman dan pengamatan",
                 "",
                 "",
@@ -65,8 +65,8 @@ class Tutorial5 : AppCompatActivity() {
             Slider(
                 "Kegiatan Pengamatan",
                 "Pelaporan Hasil Pengamatan",
-                "/tambahan tutorial/konsultasi.PNG",
-                "4. Data hasil pengamatan beserta dokumentasinya dilaporkan kepada guru melalui fitur konsultasi setiap minggunya",
+                "/tambahan tutorial/laporev.png",
+                "4. Data hasil pengamatan beserta dokumentasinya dilaporkan kepada guru melalui fitur ruang diskusi setiap minggunya",
                 "",
                 "",
                 "",
@@ -85,8 +85,8 @@ class Tutorial5 : AppCompatActivity() {
             Slider(
                 "Kegiatan Pengamatan",
                 "Pelaporan Penjualan Sayuran",
-                "/tambahan tutorial/penjualan.PNG",
-                "6. Laporan penjualan sayuran meliputi biaya pengeluaran selama penanaman, harga jual sayuran, dan proses pemasaran dilaporkan kepada guru melalui fitur konsultasi",
+                "/tambahan tutorial/jualrev.png",
+                "6. Laporan penjualan sayuran meliputi biaya pengeluaran selama penanaman, harga jual sayuran, dan proses pemasaran dilaporkan kepada guru melalui fitur ruang diskusi",
                 "",
                 "",
                 "",

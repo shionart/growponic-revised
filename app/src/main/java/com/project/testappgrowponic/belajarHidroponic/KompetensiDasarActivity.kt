@@ -17,6 +17,8 @@ class KompetensiDasarActivity : AppCompatActivity() {
         val tabel_ki = "/materi/kompetensi/KI2.png"
         val tabel_kd = "/materi/kompetensi/KD2.png"
         val tabel_ipk = "/materi/kompetensi/IPK2.png"
+        val tujpel = "/materi/kompetensi/tujpel.png"
+        val tujprak = "/materi/kompetensi/tujprak2.png"
 
 
         //load tabel ki
@@ -33,6 +35,16 @@ class KompetensiDasarActivity : AppCompatActivity() {
         Glide.with(this)
             .load(StorageUtil.pathToReference(tabel_ipk))
             .into(imageViewTabel_ipk)
+
+        //load tujpel
+        Glide.with(this)
+            .load(StorageUtil.pathToReference(tujpel))
+            .into(imageViewTujpel)
+
+        //load tujprak
+        Glide.with(this)
+            .load(StorageUtil.pathToReference(tujprak))
+            .into(imageViewTujprak)
 
 
 

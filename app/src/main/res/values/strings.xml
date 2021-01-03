@@ -68,6 +68,8 @@
 
     <string name="indikator">1.1.1 Mengagumi tumbuhan sebagai salah satu ciptaan Tuhan\n\n2.1.1 Menunjukkan sikap tekun, jujur, disiplin, kreatif, inovatif, dan bertanggung jawab\n\n2.1.2 Menunjukkan komitmen untuk menjaga  lingkungan sekitar\n\n3.1.1 Menjelaskan konsep dasar pertumbuhan dan perkembangan pada makhluk hidup\n\n3.1.2 Menguraikan proses pertumbuhan dan perkembangan  tumbuhan beserta faktor yang memengaruhinya\n\n3.1.3	Menentukan faktor eksternal yang memengaruhi pertumbuhan dan perkembangan tumbuhan berdasarkan hasil percobaan penanaman tanaman dengan teknik hidroponik\n\n4.1.1	Mengikuti prosedur percobaan penanaman tanaman dengan teknik hidroponik\n\n4.1.2 Melakukan kegiatan pengamatan tentang pengaruh faktor eksternal terhadap proses pertumbuhan dan perkembangan tanaman dengan teknik hidroponik\n\n4.1.3 Menyusun laporan hasil pengamatan pertumbuhan dan  perkembangan tanaman dengan teknik hidroponik</string>
 
+    <string name="tujprak">1.1 Mengetahui pengaruh faktor eksternal terhadap proses pertumbuhan dan perkembangan tanaman dengan teknik hidroponik</string>
+
     <string name="pengertian_hidroponic">Hidroponik adalah teknik penanaman tanaman tanpa tanah, tanaman ditumbuhkan dalam media selain tanah seperti air, kerikil, arang sekam, bata merah, dan lain sebagainya (Tallei <i>et al</i>., 2017).
     </string>
 
@@ -288,7 +290,7 @@
     <string name="wick">f. <i>Wick System</i></string>
 
 
-    <string name="video_tutorial">Video tutorial untuk prosedur kerja praktikum hidroponik disajikan dalam bentuk tautan yang akan mengarahkan anda ke youtube.\n\nBerikut ini adalah tautan untuk masing-masing prosedur kerja: </string>
+    <string name="video_tutorial">Video tutorial untuk prosedur kerja praktikum hidroponik disajikan dalam bentuk tautan youtube.\n\nBerikut ini adalah tautan untuk masing-masing prosedur kerja: </string>
     <string name="menyemai">1. Menyemai biji</string>
     <string name="link_1">"https://youtu.be/DFyxIdl3YG4"</string>
 
